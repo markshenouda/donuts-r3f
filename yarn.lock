@@ -454,6 +454,14 @@
     screen-space-reflections "2.5.0"
     three-stdlib "^2.8.11"
 
+"@react-three/xr@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@react-three/xr/-/xr-5.0.5.tgz#a69feb58f8260fb57f93fa3eebbd0406e0e0bcd5"
+  integrity sha512-LuctbbI5zkJcpWlM8gAKRWvYYrUa03s5wJq45iGkcwcPTFOhKJ1Xi+W/6/5EXRd7ujaWCabJ+jjPqB66SQaMTw==
+  dependencies:
+    three-stdlib "^2.12.1"
+    zustand "^3.7.1"
+
 "@types/offscreencanvas@^2019.6.4":
   version "2019.7.0"
   resolved "https://registry.yarnpkg.com/@types/offscreencanvas/-/offscreencanvas-2019.7.0.tgz#e4a932069db47bb3eabeb0b305502d01586fa90d"
@@ -1455,7 +1463,7 @@ three-mesh-bvh@^0.5.15:
   resolved "https://registry.yarnpkg.com/three-mesh-bvh/-/three-mesh-bvh-0.5.17.tgz#1f9bdcd7992e86dc3665664c1fe5cedd7be4bd9f"
   integrity sha512-0iyqZe0Op6tH7nqVI4L2Ae1tACiYliJvx0cFvehrVzzfZRW8p4c9GYnqGPPN5+x7Q8L5WjJC8kgoA8Z+/+1oAQ==
 
-three-stdlib@^2.17.3, three-stdlib@^2.8.11:
+three-stdlib@^2.12.1, three-stdlib@^2.17.3, three-stdlib@^2.8.11:
   version "2.17.3"
   resolved "https://registry.yarnpkg.com/three-stdlib/-/three-stdlib-2.17.3.tgz#f92d322810d81379a51344b21e0a2e941b84cb8f"
   integrity sha512-k2VwPXi75ySy0fxPIeUk3mLkj3/j+sCFK4g9Kp5J7w0PUh6qrCdhah7L6+On6fW5mBdVtML4Q5yEyN1R0Cfvqw==

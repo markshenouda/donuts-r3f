@@ -10,6 +10,11 @@ export default function Model({ z, color }) {
   const [data] = useState({
     x: Math.random() * width - width / 2,
     y: Math.random() * height - height / 2,
+    rotation: [
+      Math.random() * Math.PI,
+      Math.random() * Math.PI,
+      Math.random() * Math.PI,
+    ],
   });
   useFrame(() => {
     if (data.y > height / 1.5) {
@@ -21,14 +26,7 @@ export default function Model({ z, color }) {
 
   return (
     <group ref={group} dispose={null} scale={[0.5, 0.5, 0.5]}>
-      <mesh
-        geometry={nodes.Cylinder.geometry}
-        rotation={[
-          Math.random() * Math.PI,
-          Math.random() * Math.PI,
-          Math.random() * Math.PI,
-        ]}
-      >
+      <mesh geometry={nodes.Cylinder.geometry} rotation={data.rotation}>
         <meshStandardMaterial
           attach="material"
           color={color}
